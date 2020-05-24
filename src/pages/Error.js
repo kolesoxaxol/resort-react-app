@@ -1,11 +1,9 @@
 import React from 'react'
+import Hero from '../components/Hero';
 
  const Error = () => {
-    return (
-        <div>
-            hellow from error page
-            
-        </div>
-    )
+    return <Hero />
+       
 }
+
 export default Error;
